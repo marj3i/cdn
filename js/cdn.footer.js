@@ -26,5 +26,5 @@ let footerHtml = document.createRange().createContextualFragment(`
       <p>جميع الحقوق محفوظة - مرجعي 2021</p>
     </section>
 `)
-//add footer to doc
+//add footer to the source
 footer[0].appendChild(footerHtml);
