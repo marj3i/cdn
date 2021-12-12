@@ -20,10 +20,9 @@ function navbar(){
 };
 
 //LINK FOR LOGO
-var linkLogo;
 document.querySelector(".logo").style.cursor = "pointer";
 document.querySelector(".logo").onclick = () => {
-  window.location.href = linkLogo;
+  window.location.href = "https://marj3i.github.io/";
 };
 
 
